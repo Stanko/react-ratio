@@ -8,7 +8,7 @@ Small component that allows you to create responsive elements that will keep the
 It uses standard [CSS *hack*](https://codepen.io/stanko/pen/EoJLNq) to achieve it.
 Please not that `Ratio` ads wrapper element which makes things easier in certain scenarios.
 
-[Demo](stanko.github.io/react-ratio/)
+[Demo](https://stanko.github.io/react-ratio/)
 
 ## Usage
 
