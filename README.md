@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/react-ratio.svg?style=flat-square)](https://www.npmjs.com/package/react-ratio)
 [![npm downloads](https://img.shields.io/npm/dm/react-ratio.svg?style=flat-square)](https://www.npmjs.com/package/react-ratio)
 
-Component that allows you to create responsive elements that will keep their ratio on different screen sizes.
+Small component that allows you to create responsive elements that will keep their ratio on different screen sizes.
 
 It uses standard [CSS *hack*](https://codepen.io/stanko/pen/EoJLNq) to achieve it.
 Please not that `Ratio` ads wrapper element which makes things easier in certain scenarios.
