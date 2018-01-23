@@ -6,7 +6,7 @@
 Small component that allows you to create responsive elements that will keep their ratio on different screen sizes.
 
 It uses standard [CSS *hack*](https://codepen.io/stanko/pen/EoJLNq) to achieve it.
-Please not that `Ratio` ads wrapper element which makes things easier in certain scenarios.
+Please note that `Ratio` ads wrapper element which makes things easier in certain scenarios.
 
 [Demo](https://stanko.github.io/react-ratio/)
 
