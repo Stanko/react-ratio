@@ -1,10 +1,10 @@
 {
   "name": "react-ratio",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "license": "MIT",
   "main": "lib/index.js",
-  "description": "",
+  "description": "Small component that allows you to create responsive elements that will keep their ratio on different screen sizes.",
   "scripts": {
     "build-docs": "rm -rf ./docs && NODE_ENV=\"production\" webpack",
     "build": "rm -rf ./lib && NODE_ENV=\"production\" babel ./src --out-dir ./lib",
