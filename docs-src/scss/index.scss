@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+@media (min-width: 1500px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 2000px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 2500px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: #f3f3f0;
+  font-size: 1.8rem;
+}
+
+.Content {
+  margin: 0 auto;
+  max-width: 60rem;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+  font-size: 3.6rem;
+  line-height: 4rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+}
+
+p {
+  color: #445;
+  margin-bottom: 2rem;
+}
+
+a {
+  border-bottom: 1px solid transparent;
+  color: #e54d42;
+  text-decoration: none;
+  transition: border 250ms;
+  display: inline-block;
+}
+
+a:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.Links a {
+  margin: 0 0.5rem;
+}
+
+.Ratio {
+  color: #fff;
+  margin: 0 auto 2rem;
+}
+
+.Ratio-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+}
+
+.Ratio--1 {
+  background-color: #41ca77;
+}
+
+.Ratio--2 {
+  background-color: #409ad7;
+  width: 20rem;
+}
+
+.Ratio--3 {
+  background-color: #efc241;
+  width: 20%;
+}
+
+.Ratio--4 {
+  background-color: #e27c3b;
+  width: 28rem;
+}
+
+.Ratio--5 {
+  background-color: #e34e47;
+}
