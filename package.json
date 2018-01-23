@@ -7,9 +7,9 @@
   "description": "",
   "scripts": {
     "build-docs": "rm -rf ./docs && NODE_ENV=\"production\" webpack",
-    "build": "rm -rf ./lib && NODE_ENV=\"production\" babel ./source --out-dir ./lib",
+    "build": "rm -rf ./lib && NODE_ENV=\"production\" babel ./src --out-dir ./lib",
     "build-all": "npm run build && npm run build-docs",
-    "lint": "eslint ./source/js ./webpack.config.js -f table --ext .js --ext .jsx || true",
+    "lint": "eslint ./src/js ./webpack.config.js -f table --ext .js --ext .jsx || true",
     "preview": "rm -rf ./dist && NODE_ENV=\"production\" webpack-dev-server",
     "publish-to-npm": "npm run build && npm publish",
     "start": "webpack-dev-server",
