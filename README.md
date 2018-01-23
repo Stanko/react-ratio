@@ -29,14 +29,30 @@ export default class Example extends Component {
 
 ## Props
 
-| Prop             | Default | |
-|------------------|---------|
-| ratio            | `1`     | Aspect ratio value. Example: For `16:9` ratio, pass `16 / 9`. Zero will default it back to one.
-| className        | `''`    | Wrapper element class name
-| ratioClassName   | `''`    | Helper div class name.
-| contentClassName | `''`    | Content div class name
-| style            | `{}`    | Object with CSS styles for the wrapper element. By default it adds `display: block` but it can be overridden.
-| tagName          | `'div'` | HTML element to be used for the wrapper element. You can pass `a` or `aside`.
+* **ratio**, default `1`
+
+  Aspect ratio value. E.g. for `16:9` ratio, pass `16 / 9`.
+
+  Zero will default it back to one.
+
+* **className**, default `''`
+
+  Wrapper element class name
+* **ratioClassName**, default `''`
+
+  Helper div class name.
+
+* **contentClassName**, default `''`
+
+  Content div class name
+
+* **style**, default `{}`
+
+  Object with CSS styles for the wrapper element. By default it adds `display: block` but it can be overridden.
+
+* **tagName**, default `'div'`
+
+  HTML element to be used for the wrapper element. E.g. you can pass `a` or `aside`.
 
 All other props will be pass to the wrapper element. This is useful for passing accessibility props like `aria-label` or `tabIndex`.
 
