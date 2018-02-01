@@ -4,11 +4,12 @@
   "presets": [
     [
       "env", {
-        "modules": false,
+        "useBuiltIns": "entry",
         "targets": {
           "browsers": [
             "last 2 versions",
-            "> 1%"
+            "> 1%",
+            "ie 10"
           ]
         }
       }
